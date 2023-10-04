@@ -71,11 +71,6 @@ public class _1_String {
         System.out.println(alphabet.substring(5));//было: g (: tebahpla ton s'ti d, стало: tebahpla ton s'ti d
         //с одного идекса до другого
         System.out.println(alphabet.substring(2, 4));//было: g (: tebahpla ton s'ti d, стало: (:
-
-
-
-
-
     }
 
 }
