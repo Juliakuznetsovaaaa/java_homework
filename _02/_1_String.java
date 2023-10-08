@@ -5,7 +5,7 @@ public class _1_String {
         //Сложение строк
         String hello = "Hello";
         String world = "world";
-        System.out.println(hello+" "+world); //результат: Hello world
+        System.out.println(hello + " " + world); //результат: Hello world
 
         //Сравнение строк
         System.out.println("Hello".equals(hello));//true
@@ -23,7 +23,7 @@ public class _1_String {
 
         //Разбиение строки на массивы
         String[] lettersArray = "A; B; C; D; ".split("; ");
-        for (String letter: lettersArray){
+        for (String letter : lettersArray) {
             System.out.println(letter);
             /*A
               B
@@ -59,7 +59,7 @@ public class _1_String {
         //Удаление части строки с одной позиции до другой
         System.out.println(alphabet.delete(0, 3));//было: acUdefg, стало: defg
 
-        //Замена части строки на другую
+        //Замена части строки на другу
         //.replace(start int, end int, new String)
         System.out.println(alphabet.replace(1, 3, " it's not alphabet :( "));//было: defg, стало: d it's not alphabet :( g
 
